@@ -1,12 +1,80 @@
 .left-bg {
-    background-image: url(../images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #350030;
+    display: flex;
+    justify-content: center;
+    padding-top: 220px;
 }
 
 .right-login {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+
+.box1 {
+    position: absolute;
+    margin-top: 30px;
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.box2 {
+    position: absolute;
+    margin-top: 60px;
+    width: 600px;
+    height: 300px;
+    background-image: url(../images/template.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #fff; */
+    border-radius: 20px;
+}
+
+.left-text {
+    position: absolute;
+    margin-top: 420px;
+    color: #fff;
+    text-align: center;
+}
+
+.left-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.left-text h2 {
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dots {
+    display: flex;
+    margin-top: 550px;
+}
+
+.dots .dot {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+    border-radius: 50%;
+}
+.dots .dota {
+    background-color: #fff;
 }

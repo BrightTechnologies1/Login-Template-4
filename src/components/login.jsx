@@ -13,15 +13,20 @@ function Login() {
             </div>
             <div className="login">
                 <div className='login-text'>
-                    <h1>Login</h1>
-                    <span>Welcome back!</span>
+                    <h1>Welcome back!</h1>
                 </div>
 
                 <div className='form'>
                     <div className='row col-12 form-input'>
                         <div className='details row'>
-                            <input className='col-12' type='username' placeholder='Username' required />
-                            <input className='col-12' type='password' placeholder='Password' required />
+                            <label>
+                                Email
+                                <input className='col-12' type='email' placeholder='Email' required />
+                            </label>
+                            <label>
+                                Password
+                                <input className='col-12' type='password' placeholder='Password' required />
+                            </label>
                             <button className='form-button' type='submit'>Login</button>
                         </div>
                         <h2>New member? Sign up</h2>
