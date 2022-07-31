@@ -1,0 +1,12 @@
+.left-bg {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
